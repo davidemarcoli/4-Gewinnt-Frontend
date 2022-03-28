@@ -1,0 +1,4 @@
+<div>
+  <app-join-room *ngIf="!boardService.joined"></app-join-room>
+  <app-board *ngIf="boardService.joined"></app-board>
+</div>
